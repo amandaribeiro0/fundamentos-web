@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+:root {
+    --background-body: #EDDFEF;
+    --header-color: #464655;
+    --footer-color: #94958B;
+}
+
+* {
+    font-family: 'Libre Baskerville', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--background-body);
+}
+
+a {
+    text-decoration: none;
+}
+
+
+a:hover {
+    text-shadow: 0 0 5px rgba(185, 98, 219, 0.89);
+}
+
+ul {
+    list-style: none;
+    align-items: center;
+    display: flex;
+    gap: 1.5rem;
+    font-size: 24px;
+}
+
+main{
+    width: 80vw;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: var(--header-color);
+    height: 20vh;
+    margin: 0 auto;
+    width: 80vw;
+    font-size: 1.5rem;
+    padding: 2.25rem 1.5rem;
+    justify-content: space-between;
+    display: flex;
+  
+}
+
+
+nav a {
+    color: bisque;
+}
+
+footer {
+    background-color: var(--footer-color);
+    height: 20vh;
+    margin: 0 auto;
+    width: 100%;
+    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-size: medium;
+    font-weight: 500px;
+}
+
+footer img{
+    width: 45px;
+    padding: 0 0.5rem;
+}
+
+.logo {
+    display: flex;
+    justify-content: left;
+}
+
+#img-logo {
+    border-radius: 65%;
+    width: 10rem;
+    height: 10rem;
+}
+
+.title {
+    color: aliceblue;
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+    font-weight: 800;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+}
+
+#perfil{
+    margin-top: 5rem;
+}
+
+#desenvolvido{
+    display: flex;
+    margin:0;
+    font-weight: bolder;
+}
+
+.sobre{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 30px;
+    background-color: #B7B6C1;
+    border-radius:16px;
+}
+
+#foto{
+    width: 15rem;
+    box-shadow: 2px, 2 px, 5px gray;
+    border-radius: 10px;
+}
+
+#meu_video {
+    margin-bottom: 5rem;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#video {
+    width: 60vw;
+    display: block;
+    border-radius: 8px;
+    margin-top: 2rem;
+}
+
+/*Página de Contato*/
+
+.contato {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    padding: 40px;
+}
+
+.endereco {
+    color: rgba(185, 98, 219, 0.89);
+    font-size: 1rem;
+}
+
+.formulario {
+    margin-top: 3rem;
+    width: 50%;
+}
+
+label {
+    margin-left: 1rem;
+    font-weight: bold;
+}
+
+input,
+textarea,
+button {
+   
+    width: 100%;
+    margin-top: 0.25rem;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    color: black;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: rgba(185, 98, 219, 0.89);
+}
+
+input,
+textarea {
+    border: 1px solid rgba(185, 98, 219, 0.89);
+}
+
+button {
+    background-color: var(--header-color);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid rgba(185, 98, 219, 0.89);
+}
+
+button:hover {
+    background-color:rgba(185, 98, 219, 0.89);
+    color: rgb(98, 0, 255);
+}
+
+.campos-form {
+    margin-bottom: 1rem;
+}
