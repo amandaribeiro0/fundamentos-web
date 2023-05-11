@@ -51,6 +51,22 @@ function validarMensagem() {
   }
 }
 
+//função para validar na plataforma
+
+function validarPlataforma() {
+    let txtEmail = document.querySelector("#txtEmail");
+  
+    if (email.value.indexOf("@") == -1 || email.value.indexOf(".") == -1) {
+      txtEmail.innerHTML = "E-mail inválido";
+      txtEmail.style.color = "red";
+      emailOk = false;
+    } else {
+      txtEmail.innerHTML = "✔";
+      txtEmail.style.color = "green";
+      emailOk = true;
+    }
+  }
+
 function enviarForm() {
   if (nomeOk === true && emailOk === true && mensagemOk === true) {
     alert(nome.value + ", obrigada pelo contato. ❤\n Em breve te enviaremos um retorno 📧");
