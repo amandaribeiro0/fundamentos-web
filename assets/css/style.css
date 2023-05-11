@@ -125,20 +125,15 @@ footer img{
 }
 
 #meu_video {
+    width: 60vw;
+    margin-top: 15%;
     margin-bottom: 5rem;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
     text-align: center;
-    margin-bottom: 2rem;
 }
 
-#video {
-    width: 60vw;
-    display: block;
-    border-radius: 8px;
-    margin-top: 2rem;
-}
 
 /*Página de Contato*/
 
@@ -158,6 +153,8 @@ footer img{
     margin-top: 3rem;
     width: 50%;
 }
+
+
 
 label {
     margin-left: 1rem;
